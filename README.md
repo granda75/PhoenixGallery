@@ -12,7 +12,7 @@ export const environment = {
   mvcEndPoint: 'https://localhost:44372/Home'
 }; 
 
-	I developed the project but I did not use ASP.NET Session to store bookmarked repository items. I tried to achieve it with the classes 
+I developed the project but I did not use ASP.NET Session to store bookmarked repository items. I tried to achieve it with the classes 
 SessionableControllerHandler and SessionStateRouteHandler, but Session was different for subsequent requests from the Angular client.
 Instead of Session I used GitHubItems.json file to save bookmarked repository items.
   
